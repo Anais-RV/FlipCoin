@@ -5,7 +5,7 @@ let resetBtn = document.querySelector("#reset-button");
 let heads = 0;
 let tails = 0;
 
-let coinSound = new Audio("./Resources/CoinSpin.mp3")
+let coinSound = new Audio("Resources/CoinSpin.mp3")
 
 flipBtn.addEventListener("click", () => {
     let i = Math.floor(Math.random() * 2);
